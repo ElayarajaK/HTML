@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+<!--        <div style="width: 100%; border: 2px solid green;">
+        <div style="border:3px solid green;margin:2%;padding:2%;background: blueviolet;border-radius: 5px; color: bisque; width: 30%;">
+            <h1>Student Details</h1>
+            <p>
+                Lorem ipsum dolor sit, 
+                amet consectetur adipisicing elit. 
+                Nulla ut, 
+                facere a porro officiis laudantium 
+                optio. Eveniet dolore eos ipsa, voluptatum quos animi distinctio numquam qui sapiente aperiam commodi consectetur.
+            </p>
+        </div>
+        <div style="border:3px solid green;margin:2%;padding:2%;background: blueviolet;border-radius: 5px; color: bisque; width: 30%;">
+            <h1>Teacher's Details</h1>
+            <ol>
+                <li>APJ</li>
+                <li>Rathan TATA</li>
+                <li>Krishna</li>
+                <li>Stainly</li>
+            </ol>
+        </div>
+    </div>
+<br>
+-->
+<div>
+    <form style="border: 2px solid green; width: 40%; text-align: center;">
+        
+        <input type="search" placeholder="Searching data">
+        <h2>Employee Form Registration</h2>
+        <div>
+            <label for="name">Enter f_name : <small><b>*</b></small></label>
+
+            <input type="text" placeholder="First name" name="f_name" id="name" required /> 
+        </div> <br/>
+        <div>
+            <label for="pass">Enter the password : </label>
+
+            <input type="password" placeholder="password entering" name="password" id="pass" required /> 
+        </div> <br/>
+
+        <div>
+            <label for="email">Email Fields : </label>
+
+            <input type="email" placeholder="Enter your email" name="mail" id="email"/> 
+        </div>
+        <div>
+
+            <fieldset>
+            <legend><h3>Employee categorie's </h3></legend>
+            <label for="dev">Developers</label>
+            <input type="checkbox" name="e_cat" id="dev" value="devloper" checked/>
+            
+            <label for="test">Software Testing</label>
+            <input type="checkbox" name="e_cat" id="dev" value="testing"/>
+
+            <label for="Assist">Assist</label>
+            <input type="checkbox" name="e_cat" id="Assist" value="Assist" checked/>
+
+            <label for="jun">Juniurs</label>
+            <input type="checkbox" name="e_cat" id="jun" value="juniour"/>
+
+            <label for="UI">UI Developer</label>
+            <input type="checkbox" name="e_cat" id="UI" value="UI DEV"/>
+        </fieldset>
+        </div>
+
+        <div>
+
+            <fieldset>
+                <legend><b><i>Select Gender</i></b></legend>
+                <label for="male">male</label>
+            <input type="radio" name="gender" value="male" id="male"/>
+            
+            <label for="female">female</label>
+            <input type="radio" name="gender" value="female" id="female" checked/>
+
+            <label for="male">Others</label>
+            <input type="radio" name="gender" value="Others" id="others"/>
+            </fieldset>
+        </div>
+        <br/>
+        <div>
+            <label for="phone">Phone Number : </label>
+            <input type="number" placeholder="Enter your number"  name="p_num" id="phone" />
+       </div>
+       <br/>
+       <div>
+        <label for="dob">DOB : </label>
+        <input type="date" min="2000-01-01" max="2040-01-01" name="d_o_b" id="dob" />
+
+        <input type="time"/>
+
+      
+   </div>
+        <br/>
+   <div>
+    <label for="dob">Employee Salary range </label>
+    <input type="range" min="0" step="30" value="5" max="1000"/>
+
+    </div>
+
+    <div>
+        <label>Upload your images</label>
+        <input type="file" name="file_upload" id="imgs" />
+
+    </div>
+    <br/>
+
+    <div>
+        <label>select your distric</label>
+
+        <select>
+            <optgroup>
+            <h3>South Zone</h3>
+            <option value="vellore"> vellore</option>
+            <option value="coim">coibathur</option>
+            <option value="madura">Madura</option>
+            <option value="thiru">Thiruchi</option>
+            <option value="tnv">Thiruneveli</option>
+            <option value="kk">KK</option>
+        </optgroup>
+        <optgroup>
+           
+            <option> vellore</option>
+            <option>coibathur</option>
+            <option>Madura</option>
+            <option>Thiruchi</option>
+            <option>Thiruneveli</option>
+            <option>KK</option>
+        </optgroup>
+        </select>
+    </div>
+    <br/>
+    <div>
+        <label>select state</label>
+    <input type="text" placeholder="Select your state" list="open-list"/>
+    <datalist id="open-list">
+        <option>TamilNadu</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Panjab</option>
+        <option>Uthra pradesh</option>
+        <option>jammu</option>
+        <option>kasimir</option>
+        <option>Madhiya pradesh</option>
+
+    </datalist>
+    <br/>
+    </div>
+
+    <br/>
+        <div>
+            <label>some text</label>
+            <input type="hidden" name="personalData" value="wegot"/>
+        </div>
+
+        <input type="month"> <input type="week"/>
+
+        <input type="color" name="blue" value="red"/>
+        
+        <input type="submit"/> &nsim; <input type="reset">
+    
+    <details>
+        <summary>
+            What type Employe is this
+        </summary>
+        <p>
+            Lorem ipsum dolor,
+             sit amet consectetur adipisicing elit.
+              Mollitia officia modi, eveniet nostrum iste assumenda, facilis soluta commodi eaque quasi quia molestiae, voluptatibus
+             at tempore nulla velit odio error ad!
+        </p>
+    </details>
+
+    <details>
+        <summary>
+           pros-cons
+        </summary>
+        <p>
+            Lorem ipsum dolor,
+             sit amet consectetur adipisicing elit.
+              Mollitia officia modi, eveniet nostrum iste assumenda, facilis soluta commodi eaque quasi quia molestiae, voluptatibus
+             at tempore nulla velit odio error ad!
+        </p>
+    </details>
+
+    <details>
+        <summary>
+            What type Employe is this
+        </summary>
+        <p>
+            Lorem ipsum dolor,
+             sit amet consectetur adipisicing elit.
+              Mollitia officia modi, eveniet nostrum iste assumenda, facilis soluta commodi eaque quasi quia molestiae, voluptatibus
+             at tempore nulla velit odio error ad!
+        </p>
+    </details>
+
+    <progress value="10" max="100" id="progressing"> 10%</progress>
+
+
+
+
+
+
+
+    </form>
+</div>
+
+<script>
+    let progress=document.getElementById("progressing");
+    console.log(progress)
+
+    let value=0;
+    fun(value);
+
+    function fun(value){
+        
+        if(value<10){
+            value++;
+
+            progress.value=value;
+        }
+
+        setTimeout(fun(value),500);
+
+        
+    }
+
+    
+</script>
+
+    </body>
+</html>

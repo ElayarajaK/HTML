@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <progress value="10" max="100" id="progress"><span>10</span></progress>
+
+        <script>
+            let element=document.getElementById("progress");
+            
+            function fun1(){
+
+                values=element.value;
+                values++;
+
+                element.value=values;
+                if(values==99){
+                    
+                    alert("None");
+                }
+
+                setTimeout(fun1,500);
+
+            }
+
+            fun1();
+
+        </script>
+    </body>
+</html>
